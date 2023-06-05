@@ -1,0 +1,91 @@
+@font-face {
+    font-family:"HelveticaNeueCyr-Light" ;
+    src: url(/fonts/HelveticaNeueCyr-Light.woff2) format("woff2"),
+    url(/fonts/HelveticaNeueCyr-Light.woff) format("woff");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNeueCyr-Medium";
+    src: url(/fonts/HelveticaNeueCyr-Medium.woff2) format("woff2"),
+    url(/fonts/HelveticaNeueCyr-Medium.woff) format("woff");
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:"Comfortaa-Regular";
+    src: url(/fonts/Comfortaa-Regular.woff2) format("woff2"),
+    url(/fonts/Comfortaa-Regular.woff) format("woff");
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNeueCyr-Roman";
+    src: url(/fonts/HelveticaNeueCyr-Roman.woff2) format("woff2"),
+    url(/fonts/HelveticaNeueCyr-Roman.woff) format("woff");
+    font-weight: 300;
+    font-display: swap;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 320px;
+    min-height: 100vh;
+    font-family: "HelveticaNeueCyr-Light", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.wrapper {
+    margin-left: 129px;
+}
+
+p {
+    white-space: pre-line;
+}
+
+h1,h2,h3::first-letter {
+    font-family:"Comfortaa-Regular";
+    font-size: 50px;
+    font-weight: 500;
+}
+
+h3 {
+    white-space:pre;
+    font-weight:300;
+    font-size: 30px;
+}
+
+.help__title {
+    color:orange;
+    padding-left: 230px;
+    margin-bottom: 105px;
+}
+
+.first__number,.second__number,.third__number {
+    font-family: "HelveticaNeueCyr-Roman";
+    font-weight: 300;
+    font-size: 30px ;
+}
+
+h3:first-letter {
+    font-size: 40px;
+    color: orange;
+    font-weight:500;
+    white-space: pre-line;
+}
+
+svg {
+    padding-right: 17px;
+}
+
+input {
+    border: 0;
+}

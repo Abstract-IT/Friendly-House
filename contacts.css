@@ -1,0 +1,93 @@
+.contacts {
+    padding-block: inherit;
+    padding: 50px 100px;
+    text-align: center;
+    width: 780px;
+    height: 592px;
+}
+
+.contacts__block {
+    background-color: #F2F0F1;
+    border-radius: 20px;
+    width: 580px;
+    height: 492px;
+    padding-top: 56px;
+}
+
+.contacts__info {
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.contacts__info-text {
+    margin: 0 0 20px 0;
+}
+
+.contacts__info-text-color {
+    color: #FF8A00 ;
+}
+
+.contacts__title {
+    color: #FF8A00;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 0;
+}
+
+.email__box {
+    margin-bottom: 35px;
+}
+
+.feedback__send {
+    background-color: black;
+    color: #FF8A00;
+    width: 140px;
+    height: 30px;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 10px;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.feedback__text {
+
+}
+
+.mail, .telephone {
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+
+.phone__box {
+
+}
+
+.phone__number {
+    width: 33px;
+    height: 14px;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    padding-right: 80px;
+}
+
+.email__address {
+    width: 33px;
+    height: 14px;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    padding-right: 135px;
+}

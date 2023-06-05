@@ -1,0 +1,18 @@
+.third {
+    margin-bottom: 180px;
+}
+
+.third__number {
+    margin-bottom: 19px;
+}
+
+.third__number-text {
+    padding-left: 53px;
+}
+
+.third__number-want {
+    font-family: "HelveticaNeueCyr-Medium";
+    font-weight: 600;
+    padding-left: 53px;
+    margin-bottom: 19px;
+}
